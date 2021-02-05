@@ -70,7 +70,8 @@ True
 """
 
 string = raw_input()
-
+# here any returns an iterator so it cannot be printed directly
+# so we need to store it into a variable and then print the variable
 print any(c.isalnum() for c in string)
 print any(c.isalpha() for c in string)
 print any(c.isdigit() for c in string)
