@@ -64,6 +64,7 @@ Explanation
 All possible permuatations of size 2 of ths string "HACK" are printed in lexicographic sorted order.
 
 """
+''' this code can only run on python 2'''
 
 
 from itertools import permutations
